@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>You can view you are entered string in reverse</p>
+
+<p id="demo"></p>
+
+<script>
+function reverse_str(str){
+var rev_str="";
+for(var i=str.length-1;i>=0;i--){
+rev_str+=str[i];
+}
+return rev_str;
+}
+var in_str = prompt("Please enter your string");
+final_str=reverse_str(in_str);
+document.getElementById("demo").innerHTML=final_str;
+</script>
+
+</body>
+</html>
