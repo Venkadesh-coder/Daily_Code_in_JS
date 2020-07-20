@@ -1,6 +1,6 @@
 function ascend_order(array)
 {
-    var count=array.length-1,swap,j,i;
+    var count=array.length-1,j,i;
     for(j=0;j<count;j++)
     {
         for(i=0;i<count;i++)
