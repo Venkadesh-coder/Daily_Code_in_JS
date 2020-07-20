@@ -7,9 +7,7 @@ function ascend_order(array)
         {
             if(array[i]>array[i+1])
             {
-                swap=array[i+1];
-                array[i+1]=array[i];
-                array[i]=swap;
+                [array[i+1],array[i]]=[array[i],array[i+1]];
             }
         }
     }
